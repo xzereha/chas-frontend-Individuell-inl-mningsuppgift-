@@ -18,7 +18,7 @@
     "deps": "browser-driver-manager install chrome",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "python -m http.server 8080",
-    "axe": "axe localhost:8080 --save reports/results.json"
+    "axe": "axe localhost:8080 --save reports/results.json --load-delay 2000"
   },
   "devDependencies": {
     "@axe-core/cli": "^4.11.1",

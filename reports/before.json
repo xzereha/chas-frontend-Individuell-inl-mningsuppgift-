@@ -14,8 +14,8 @@
       "orientationAngle": 0,
       "orientationType": "landscape-primary"
     },
-    "timestamp": "2026-02-23T09:25:42.842Z",
-    "url": "http://localhost:8000/",
+    "timestamp": "2026-02-23T09:33:30.108Z",
+    "url": "http://localhost:8080/",
     "toolOptions": {
       "reporter": "v1"
     },
