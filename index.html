@@ -8,83 +8,87 @@
     <script type="module" src="script.js" defer></script>
 </head>
 <body>
-    <div class="top-bar">
+    <header class="top-bar">
         <div class="logo">MyShop</div>
-        <div class="menu">
+        <nav class="menu">
             <div class="menu-item"><a href="#">Home</a></div>
             <div class="menu-item"><a href="#">Products</a></div>
             <div class="menu-item"><a href="#">Contact</a></div>
-        </div>
-    </div>
+        </nav>
+    </header>
 
-    <div class="hero">
-        <img src="images/pexels-photo-373912.jpeg"
-             class="hero-image"
-             alt="image of a city">
-        <div class="hero-text">
-            <h1>Welcome to MyShop</h1>
-            <p>Find the best products at the lowest prices.</p>
-            <button type="submit" class="primary-button">Shop now</button>
-        </div>
-    </div>
-
-    <div class="content">
-        <div class="section-title">
-            <h2>Our Products</h2>
-        </div>
-
-        <div class="products">
-            <div class="product-card">
-                <img src="images/pexels-photo-461428.jpeg"
-                     class="product-image"
-                     alt="image of some spices">
-                <h3>Headphones</h3>
-                <p class="product-description">
-                    High quality headphones with amazing sound. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-                <p class="product-price">599 kr</p>
-                <button type="submit" class="add-to-cart">Add to cart</button>
+    <main>
+        <section class="hero">
+            <img src="images/pexels-photo-373912.jpeg"
+            class="hero-image"
+            alt="image of a city">
+            <div class="hero-text">
+                <h1>Welcome to MyShop</h1>
+                <p>Find the best products at the lowest prices.</p>
+                <button type="submit" class="primary-button">Shop now</button>
+            </div>
+        </section>
+        
+        <section class="content">
+            <div class="section-title">
+                <h2>Our Products</h2>
             </div>
 
-            <div class="product-card">
-                <img src="images/pexels-photo-1334597.jpeg"
-                     class="product-image"
-                     alt="image of a tablet">
-                <h3>Smart Watch</h3>
-                <p class="product-description">
-                    Track your activity and stay connected. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-                <p class="product-price">1299 kr</p>
-                <button type="submit" class="add-to-cart">Add to cart</button>
-            </div>
+            <section class="products">
+                <article class="product-card">
+                    <img src="images/pexels-photo-461428.jpeg"
+                         class="product-image"
+                         alt="image of some spices">
+                    <h3>Headphones</h3>
+                    <p class="product-description">
+                        High quality headphones with amazing sound. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                    <p class="product-price">599 kr</p>
+                    <button type="submit" class="add-to-cart">Add to cart</button>
+                </article>
 
-            <div class="product-card">
-                <img src="images/pexels-photo.jpg"
-                     class="product-image"
-                     alt="image of a laptop">
-                <h3>Camera</h3>
-                <p class="product-description">
-                    Capture your best moments in high resolution. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-                <p class="product-price">3499 kr</p>
-                <button type="submit" class="add-to-cart">Add to cart</button>
-            </div>
-        </div>
-    </div>
+                <article class="product-card">
+                    <img src="images/pexels-photo-1334597.jpeg"
+                         class="product-image"
+                         alt="image of a tablet">
+                    <h3>Smart Watch</h3>
+                    <p class="product-description">
+                        Track your activity and stay connected. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                    <p class="product-price">1299 kr</p>
+                    <button type="submit" class="add-to-cart">Add to cart</button>
+                </article>
 
-    <div class="newsletter">
-        <h2>Subscribe to our newsletter</h2>
-        <p>Get the latest updates and offers.</p>
-        <form>
-            <input type="text" name="name" placeholder="Your name">
-            <input type="email" name="email" placeholder="Your email">
-            <button type="submit" class="primary-button">Subscribe</button>
-        </form>
-    </div>
+                <article class="product-card">
+                    <img src="images/pexels-photo.jpg"
+                         class="product-image"
+                         alt="image of a laptop">
+                    <h3>Camera</h3>
+                    <p class="product-description">
+                        Capture your best moments in high resolution. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                    <p class="product-price">3499 kr</p>
+                    <button type="submit" class="add-to-cart">Add to cart</button>
+                </article>
+            </section>
+        </section>
+    </main>
 
-    <div class="footer">
-        <p>© 2025 MyShop. All rights reserved.</p>
-        <a href="#">Click here</a>
-    </div>
+    <footer>
+        <section class="newsletter">
+            <h2>Subscribe to our newsletter</h2>
+            <p>Get the latest updates and offers.</p>
+            <form>
+                <input type="text" name="name" placeholder="Your name">
+                <input type="email" name="email" placeholder="Your email">
+                <button type="submit" class="primary-button">Subscribe</button>
+            </form>
+        </section>
+
+        <section class="footer">
+            <p>© 2025 MyShop. All rights reserved.</p>
+            <a href="#">Click here</a>
+        </section>
+    </footer>
 </body>
 </html>
