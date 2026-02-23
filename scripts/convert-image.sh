@@ -38,10 +38,10 @@ for w in "${sizes[@]}"; do
   webp="$outdir/${name}-${w}.webp"
 
   # Resize using Lanczos filter; do not upscale (keep original width if smaller)
-  ffmpeg -y -i "$src" -vf "scale='if(gt(iw,${w}),${w},iw)':'-1':flags=lanczos" -q:v 3 "$jpg"
+  ffmpeg -y -i "$src" -vf "scale='if(gt(iw,${w}),${w},iw)':'-1':flags=lanczos" -q:v 6 "$jpg"
 
   # Encode WebP (lossy) from the resized JPEG
-  ffmpeg -y -i "$jpg" -vcodec libwebp -lossless 0 -q:v 75 -preset default "$webp"
+  ffmpeg -y -i "$jpg" -vcodec libwebp -lossless 0 -q:v 60 -preset default "$webp"
 
   printf "created: %s, %s\n" "$jpg" "$webp"
 done
