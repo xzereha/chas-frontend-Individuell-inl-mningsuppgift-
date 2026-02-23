@@ -1,0 +1,27 @@
+{
+  "name": "my-shop",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/xzereha/chas-frontend-Individuell-inl-mningsuppgift-#readme",
+  "bugs": {
+    "url": "https://github.com/xzereha/chas-frontend-Individuell-inl-mningsuppgift-/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xzereha/chas-frontend-Individuell-inl-mningsuppgift-.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "deps": "browser-driver-manager install chrome",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "python -m http.server 8080",
+    "axe": "axe localhost:8080 --save reports/results.json"
+  },
+  "devDependencies": {
+    "@axe-core/cli": "^4.11.1",
+    "browser-driver-manager": "^2.0.1"
+  }
+}
