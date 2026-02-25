@@ -163,3 +163,18 @@ body {
     text-decoration: none;
     margin-left: 8px;
 }
+
+button {
+    color: black;
+    background-color: #777777;
+}
+
+a:hover, a:focus {
+    text-shadow: 0 0 1px #cccccc;
+    text-decoration: underline;
+}
+
+button:hover, button:focus {
+    background-color: #eeeeee;
+    color: #222222;
+}
